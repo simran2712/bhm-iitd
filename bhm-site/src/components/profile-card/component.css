@@ -1,0 +1,11 @@
+.profile-image{
+    
+    width: 100%;
+    background-color: grey;
+    border-radius: 10px;
+}
+.profile-card{
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+}
