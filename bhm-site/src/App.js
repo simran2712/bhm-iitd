@@ -5,6 +5,7 @@ import AboutUs from './components/about-us/component';
 import TeamStucture from './components/team-structure/component';
 import Chiefs from './components/chiefs/component';
 import Footer from './components/footer/component';
+import PopUp from './components/pop-up/component';
 function App() {
   return (
     <div className="App" id="container">
@@ -14,6 +15,7 @@ function App() {
         <TeamStucture/>
         <Chiefs/>
         <Footer/>
+        <PopUp/>
     </div>
   );
 }
