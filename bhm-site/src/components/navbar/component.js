@@ -17,12 +17,14 @@ function Navbar() {
     }*/
 
     return <nav class="sticky-top">
-           <ul className="navbar sticky-top ">
-                <li className="navbar-button" /*onClick={display_nav()}*/><img src={menu} alt="" className="menu_icon" /></li>
-                <li><img src={bhm_logo} alt="" className="navbar_bhm" /><a href="" className="navbar-brand">BHM - IIT Delhi</a></li>
-                <li><ul className="navbar-middle">
+        <ul className="navbar sticky-top ">
+            <li className="navbar-button" /*onClick={display_nav()}*/><img src={menu} alt="" className="menu_icon" /></li>
+            <li>
+                {/* <img src={bhm_logo} alt="" className="navbar_bhm" /> */}
+                <a href="" className="navbar-brand">BHM - IIT Delhi</a></li>
+            <li><ul className="navbar-middle">
                 <li className="navbar-options">Hostel
-                        <ul className="navbar-suboptions">
+                    <ul className="navbar-suboptions">
                         <li>Aravali Hostel</li>
                         <li>Girnar Hostel</li>
                         <li>Jwalamukhi Hostel</li>
@@ -44,10 +46,10 @@ function Navbar() {
                 <li className="navbar-options">About Us</li>
                 <li className="navbar-options">Important links</li>
                 <li className="navbar-options">Initiatives</li>
-                </ul></li>
-                <li className="search"><img src={search_logo} alt="" className="search-sym" /><input className="searchbox" type="text" placeholder="Search.."></input></li>
-            </ul>
-        </nav>
+            </ul></li>
+            <li className="search"><img src={search_logo} alt="" className="search-sym" /><input className="searchbox" type="text" placeholder="Search.."></input></li>
+        </ul>
+    </nav>
 }
 
 export default Navbar
