@@ -1,0 +1,22 @@
+.Notices-Heading{
+  font-weight: bold;
+}
+
+.Notices-List{
+  list-style-type:none;
+  font-size:  medium;
+  text-align: center;
+}
+
+.hr-1{
+  height: 5px;
+  background:rgba(24, 23, 23, 0.829);
+}
+
+.notice-title{
+  font-weight: 600;
+}
+.notice-body{
+  font-size: smaller;
+  color: #999;
+}
