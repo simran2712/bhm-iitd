@@ -14,8 +14,8 @@ function App() {
         <Hero/>
         <AboutUs/>
         <TeamStucture/>
-        <Chiefs/>
         <Notices/>
+        <Chiefs/>
         <Footer/>
         <PopUp/>
     </div>
