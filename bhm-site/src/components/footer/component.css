@@ -31,6 +31,9 @@
 	opacity: 1;
 	/* -webkit-text-stroke: 1px black; */
 }
+.contact-li{
+	width:25px;
+}
 
 .enquire {
 	float: right;
@@ -39,7 +42,11 @@
 
 .footer_hostels > ul {
 	list-style-type: none;
-	font-size: 1.3rem;
+	font-size: smaller;
+	text-align: left;
+}
+.footer_hostels > span {
+	font-size: medium;
 }
 
 .footer a {
@@ -53,4 +60,20 @@
 	resize: none;
 	color: #d1d2d2;
 	padding: 0.7em 1em;
+}
+.footer-link{
+	width: 10px;
+	margin: 5px;
+}
+
+ul{
+	padding: 0;
+}
+
+.footer-heading{
+	font-size: medium;
+}
+.footer-text{
+	font-size: smaller;
+	color: #999;
 }
