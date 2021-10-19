@@ -6,6 +6,7 @@ import TeamStucture from './components/team-structure/component';
 import Chiefs from './components/chiefs/component';
 import Footer from './components/footer/component';
 import PopUp from './components/pop-up/component';
+import Calendar from './components/calendar/component';
 import Notices from './components/notices/component.js';
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <AboutUs/>
         <TeamStucture/>
         <Notices/>
+        <Calendar/>
         <Chiefs/>
         <Footer/>
         <PopUp/>
