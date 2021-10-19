@@ -2,7 +2,9 @@ import Hero from '../hero/component';
 import './component.css';
 
 function Notice(props) {
+
   return <div className="notice p-4 m-4 bg-white">
+
     <div className="notice-title">
       {props.title}
     </div>
@@ -13,6 +15,7 @@ function Notice(props) {
 }
 
 function Notices() {
+
   return <div className="my-5 py-5 bg-light">
     <div>
       <h2 class="heading">Notices</h2>

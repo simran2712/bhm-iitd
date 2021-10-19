@@ -1,6 +1,6 @@
 import './component.css';
 function ProfileCard(props){
-    return <div className="profile-card">
+    return <div className="profile-card my-3">
         <div className="profile-image">
             <img src={props.image} alt="" className='img-cover profile-image'/>
         </div>
