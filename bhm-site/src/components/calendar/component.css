@@ -49,20 +49,24 @@
   .event .event-right h3.event-title {
     font-size: 24px;
     margin: 24px 0 10px 0;
-    color: #218bbb;
-    text-transform: uppercase;
+    color: #000;
+    /* text-transform: uppercase; */
+    text-align: left;
+    font-weight: 600;
   }
   
   .event .event-right .event-timing {
-    background: #fff8ba;
-    display: flex;
+    color:#185abb;background-color:#e8f0fd;
+    /* display: flex; */
     align-items: center;
     justify-content: center;
-    width: 100px;
+    width: 110px;
     padding: 8px;
-    border-radius: 16px;
+    border-radius: 10px;
     margin: 24px 0;
     font-size: 14px;
+    font-weight: 600;
+    
   }
   
   .event .event-right .event-timing img {
@@ -73,6 +77,7 @@
   @media (max-width: 550px) {
     .event {
       flex-direction: column;
+      text-align: left;
     }
   
     .event .event-left {
@@ -84,6 +89,7 @@
     .event .event-left .event-date .month {
       display: inline-block;
       font-size: 24px;
+      margin-right: 5px;
     }
   
     .event .event-left .event-date {
