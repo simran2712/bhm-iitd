@@ -20,20 +20,20 @@ function Navbar(){
           Hostel
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Aravali Hostel</a>
-            <a class="dropdown-item" href="#">Girnar Hostel</a>
-            <a class="dropdown-item" href="#">Jwalamukhi Hostel</a>
-            <a class="dropdown-item" href="#">Karakoram Hostel</a>
-            <a class="dropdown-item" href="#">Nilgiri Hostel</a>
-            <a class="dropdown-item" href="#">Shivalik Hostel</a>
-            <a class="dropdown-item" href="#">Satpura Hostel</a>
-            <a class="dropdown-item" href="#">Udaigiri Hostel</a>
-            <a class="dropdown-item" href="#">Vindhyachal Hostel</a>
-            <a class="dropdown-item" href="#">Zanskar Hostel</a>
+            <a class="dropdown-item" href="aravali">Aravali Hostel</a>
+            <a class="dropdown-item" href="girnar">Girnar Hostel</a>
+            <a class="dropdown-item" href="jwalamukhi">Jwalamukhi Hostel</a>
+            <a class="dropdown-item" href="karakoram">Karakoram Hostel</a>
+            <a class="dropdown-item" href="nilgiri">Nilgiri Hostel</a>
+            <a class="dropdown-item" href="shivalik">Shivalik Hostel</a>
+            <a class="dropdown-item" href="satpura">Satpura Hostel</a>
+            <a class="dropdown-item" href="udaigiri">Udaigiri Hostel</a>
+            <a class="dropdown-item" href="vindhyachal">Vindhyachal Hostel</a>
+            <a class="dropdown-item" href="zanskar">Zanskar Hostel</a>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Kailash Hostel</a>
-            <a class="dropdown-item" href="#">Himadri Hostel</a>
-            <a class="dropdown-item" href="#">New Kailash Hostel</a>
+            <a class="dropdown-item" href="kailash">Kailash Hostel</a>
+            <a class="dropdown-item" href="himadri">Himadri Hostel</a>
+            <a class="dropdown-item" href="newkailash">New Kailash Hostel</a>
           </div>
         </li>
         
