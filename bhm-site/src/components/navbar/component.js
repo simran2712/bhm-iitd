@@ -1,4 +1,5 @@
 import './component.css';
+import {Link} from "react-router-dom";
 
 function Navbar(){
     return <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
@@ -20,20 +21,20 @@ function Navbar(){
           Hostel
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="aravali">Aravali Hostel</a>
-            <a class="dropdown-item" href="girnar">Girnar Hostel</a>
-            <a class="dropdown-item" href="jwalamukhi">Jwalamukhi Hostel</a>
-            <a class="dropdown-item" href="karakoram">Karakoram Hostel</a>
-            <a class="dropdown-item" href="nilgiri">Nilgiri Hostel</a>
-            <a class="dropdown-item" href="shivalik">Shivalik Hostel</a>
-            <a class="dropdown-item" href="satpura">Satpura Hostel</a>
-            <a class="dropdown-item" href="udaigiri">Udaigiri Hostel</a>
-            <a class="dropdown-item" href="vindhyachal">Vindhyachal Hostel</a>
-            <a class="dropdown-item" href="zanskar">Zanskar Hostel</a>
+            <Link className="dropdown-item" to="/hostel/aravali">Aravali Hostel</Link>
+            <Link className="dropdown-item" to="/hostel/girnar">Girnar Hostel</Link>
+            <Link className="dropdown-item" to="/hostel/jwalamukhi">Jwalamukhi Hostel</Link>
+            <Link className="dropdown-item" to="/hostel/karakoram">Karakoram Hostel</Link>
+            <Link className="dropdown-item" to="/hostel/nilgiri">Nilgiri Hostel</Link>
+            <Link className="dropdown-item" to="/hostel/shivalik">Shivalik Hostel</Link>
+            <Link className="dropdown-item" to="/hostel/satpura">Satpura Hostel</Link>
+            <Link className="dropdown-item" to="/hostel/udaigiri">Udaigiri Hostel</Link>
+            <Link className="dropdown-item" to="/hostel/vindhyachal">Vindhyachal Hostel</Link>
+            <Link className="dropdown-item" to="/hostel/zanskar">Zanskar Hostel</Link>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="kailash">Kailash Hostel</a>
-            <a class="dropdown-item" href="himadri">Himadri Hostel</a>
-            <a class="dropdown-item" href="newkailash">New Kailash Hostel</a>
+            <Link className="dropdown-item" to="/hostel/kailash">Kailash Hostel</Link>
+            <Link className="dropdown-item" to="/hostel/himadri">Himadri Hostel</Link>
+            <Link className="dropdown-item" to="/hostel/newkailash">New Kailash Hostel</Link>
           </div>
         </li>
         
@@ -46,13 +47,13 @@ function Navbar(){
           Resources
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Resource 1</a>
-            <a class="dropdown-item" href="#">Resource 2</a>
-            <a class="dropdown-item" href="#">Resource 3</a>
-            <a class="dropdown-item" href="#">Resource 4</a>
-            <a class="dropdown-item" href="#">Resource 5</a>
-            <a class="dropdown-item" href="#">Resource 6</a>
-            <a class="dropdown-item" href="#">Resource 7</a>
+            <Link className="dropdown-item" to="#">Resource 1</Link>
+            <Link className="dropdown-item" to="#">Resource 2</Link>
+            <Link className="dropdown-item" to="#">Resource 3</Link>
+            <Link className="dropdown-item" to="#">Resource 4</Link>
+            <Link className="dropdown-item" to="#">Resource 5</Link>
+            <Link className="dropdown-item" to="#">Resource 6</Link>
+            <Link className="dropdown-item" to="#">Resource 7</Link>
           </div>
         </li>
 
@@ -66,11 +67,11 @@ function Navbar(){
           Important Links
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Link 1</a>
-            <a class="dropdown-item" href="#">Link 2</a>
-            <a class="dropdown-item" href="#">Link 3</a>
-            <a class="dropdown-item" href="#">Link 4</a>
-            <a class="dropdown-item" href="#">Link 5</a>
+            <Link className="dropdown-item" to="#">Link 1</Link>
+            <Link className="dropdown-item" to="#">Link 2</Link>
+            <Link className="dropdown-item" to="#">Link 3</Link>
+            <Link className="dropdown-item" to="#">Link 4</Link>
+            <Link className="dropdown-item" to="#">Link 5</Link>
           </div>
         </li>
 
