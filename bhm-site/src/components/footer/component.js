@@ -8,25 +8,25 @@ function Footer() {
                     <ul>
                         <span className="font-weight-bold footer-heading">Hostels</span><br />
 
-                        <li><a href="">Aravali</a></li>
-                        <li><a href="">Girnar</a></li>
-                        <li><a href="">Himadri</a></li>
-                        <li><a href="">Jwalamukhi</a></li>
-                        <li><a href="">Kailash</a></li>
-                        <li><a href="">Karakoram</a></li>
-                        <li><a href="">Kumaon</a></li>
+                        <li><a href="aravali">Aravali</a></li>
+                        <li><a href="girnar">Girnar</a></li>
+                        <li><a href="himadri">Himadri</a></li>
+                        <li><a href="jwalamukhi">Jwalamukhi</a></li>
+                        <li><a href="kailash">Kailash</a></li>
+                        <li><a href="karakoram">Karakoram</a></li>
+                        <li><a href="kumaon">Kumaon</a></li>
                     </ul>
                 </div>
                 <div className="col-6 col-md-3 footer_hostels">
                     <ul>
                         <span className="font-weight-bold">&nbsp;</span>
                         <span className="font-weight-bold">&nbsp;</span>
-                        <li><a href="">Nilgiri</a></li>
-                        <li><a href="">Satpura</a></li>
-                        <li><a href="">Shivalik</a></li>
-                        <li><a href="">Udaigiri</a></li>
-                        <li><a href="">Vindhyachal</a></li>
-                        <li><a href="">Zanskar</a></li>
+                        <li><a href="nilgiri">Nilgiri</a></li>
+                        <li><a href="satpura">Satpura</a></li>
+                        <li><a href="shivalik">Shivalik</a></li>
+                        <li><a href="udaigiri">Udaigiri</a></li>
+                        <li><a href="vindhyachal">Vindhyachal</a></li>
+                        <li><a href="zanskar">Zanskar</a></li>
                     </ul>
                 </div>
             </div>
