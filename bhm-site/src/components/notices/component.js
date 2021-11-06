@@ -4,7 +4,7 @@ import notices from '../../data/noticeBoard';
 
 function Notice(props) {
 
-  return <div className="notice p-4 m-4 bg-white">
+  return <div className="notice p-4 my-4 bg-white">
 
     <div className="notice-title">
       {props.title}
