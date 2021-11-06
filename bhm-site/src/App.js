@@ -1,35 +1,24 @@
 import './App.css';
 import Navbar from './components/navbar/component.js';
 import React from 'react';
-import Hero from './components/hero/component.js'
-import AboutUs from './components/about-us/component';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import TeamStucture from './components/team-structure/component';
-import Chiefs from './components/chiefs/component';
+import { BrowserRouter as Router, Switch, Route, Routes } from 'react-router-dom'
 import Footer from './components/footer/component';
 import Hostel from './components/hostel/component';
-import PopUp from './components/pop-up/component';
-import Calendar from './components/calendar/component';
-import Notices from './components/notices/component.js';
+import Homepage from './pages/homepage';
 
 function App() {
   return (
-    <Router>
-      <div className="App" id="container">
-        <Navbar/>
-        <Route path="/hostel/" component={Hostel} />
-        <Route exact path='/'>
-          <Hero />
-          <AboutUs />
-          <TeamStucture />
-          <Notices />
-          <Calendar />
-          <Chiefs />
-          <PopUp />
-        </Route>
+    <div className="App" id="container">
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/hostel/:hostel" element={<Hostel/>} />
+          <Route exact path='/' element={<Homepage/>} />
+        </Routes>
         <Footer />
-      </div>
-    </Router>
+      </Router>
+    </div>
+
   );
 }
 
