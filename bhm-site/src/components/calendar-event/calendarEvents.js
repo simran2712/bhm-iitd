@@ -1,25 +1,4 @@
-// date: {
-//     type: Date,
-//     required: true
-// },
-// heading:{
-//     type:String,
-//     required:true,
-// },
-// notice: {
-//     type: String,
-//     required: true,
-// },
-// notifType: {
-//     type: ['popup', 'normal'],
-//     required: false,
-//     default: 'normal'
-// },
-// show: {
-//     type: Boolean,
-//     required: true,
-//     default: true
-// }
+
 
 export const notifications = [
     {
