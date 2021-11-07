@@ -10,7 +10,7 @@ const Homepage = function () {
     return <div>
         <Hero />
         <AboutUs />
-        <TeamStucture />
+        {/* <TeamStucture /> */}
         <Notices />
         <Calendar />
         <Chiefs />

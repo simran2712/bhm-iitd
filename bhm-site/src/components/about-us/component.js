@@ -1,5 +1,5 @@
 function AboutUs(){
-    return <div className="about-us">
+    return <div className="about-us text-justify">
         <div className="container p-5">
             <div className="heading pb-5">
                 About BHM

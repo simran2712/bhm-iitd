@@ -1,5 +1,5 @@
 function Introduction(){
-    return <div className="introduction">
+    return <div className="introduction text-justify">
         <div className="container py-5">
             <div className="heading pb-5">
                 Introduction

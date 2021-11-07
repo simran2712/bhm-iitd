@@ -1,6 +1,6 @@
 function Vision(){
-    return <div className="vision">
-        <div className="container p-5">
+    return <div className="vision text-justify">
+        <div className="container py-5">
             <div className="heading pb-5">
                 Vision
             </div>
