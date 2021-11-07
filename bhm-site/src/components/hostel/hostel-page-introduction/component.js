@@ -1,6 +1,6 @@
 function Introduction(){
     return <div className="introduction">
-        <div className="container p-5">
+        <div className="container py-5">
             <div className="heading pb-5">
                 Introduction
             </div>
