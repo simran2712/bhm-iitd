@@ -16,7 +16,7 @@ function Messmenu(){
     
     return <div id="mess-menu" className="container-fluid">
         <div className="heading" id="mess-heading">Mess Menu</div>
-        <div id="menu">
+        <div class="menu">
     <div id="marker"></div>
     <Link to="#">Sunday</Link>
     <Link to="#">Monday</Link>

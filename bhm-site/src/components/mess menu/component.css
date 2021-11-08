@@ -35,15 +35,14 @@ body{
     margin: 2%;
 }
 
-menu{
+.menu{
     
     position: relative;
     align-items: center;
     align-self: center;
-    display: flex;
-    padding-bottom: 2%;
+    margin-bottom: 1%;
 }
-#menu a{
+.menu a{
     position: relative;
     align-self: center;
     align-content: center;
@@ -59,7 +58,7 @@ menu{
     width: 0;
     height: 4px;
     background-color: #000;
-    bottom: 0px;
+    bottom: -2px;
     transform: 0.5s;
     border-radius: 4px;
 }
