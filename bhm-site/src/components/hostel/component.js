@@ -6,6 +6,7 @@ import ContactUs from './hostel-page-contact-us/component';
 import Alumni from './hostel-alumni/component'
 import StudentTeam from './hostel-student-team/component';
 import Hero from './hostel-hero/component';
+import hostels from '../../data/hostel/hostel';
 function capitalize(string) {
   return string.charAt(0).toUpperCase() + string.slice(1);
 }
@@ -17,12 +18,12 @@ function Hostel(props) {
     <div className="container">
       {/* {capitalize(hostel)} Hostel Page */}
     </div>
-    <Hero/>
-    <Introduction/>
-    <Vision/>
-    <ContactUs/>
+    <Hero hostel={hostel} logo = {hostels[hostel]['logo']} hero = {hostels[hostel]['hero']}/>
+    <Introduction text={hostels[hostel]['introduction']}/>
+    <Vision text={hostels[hostel]['vision']}/>
+    <ContactUs contact={hostels[hostel]['contact']}/>
     {/* <Alumni/> */}
-    <StudentTeam/>
+    <StudentTeam secys={hostels[hostel]['secys']}/>
 
   </div>
 

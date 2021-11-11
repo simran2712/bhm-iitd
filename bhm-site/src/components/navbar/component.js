@@ -1,6 +1,7 @@
 
 import './component.css';
 import { Link } from "react-router-dom";
+import constitution from '../../assets/bhm_const updated.pdf';
 
 function Navbar() {
   return <nav className="navbar navbar-expand-lg navbar-light bg-white fixed-top">
@@ -12,7 +13,7 @@ function Navbar() {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav navbar-nav-scroll mx-auto">
           <li className="nav-item">
-            <Link className="nav-link" to="/">Home</Link>
+            <Link className="nav-link" to="/" onClick={()=>{window.scrollTo(0,0)}}>Home</Link>
           </li>
 
           <li className="nav-item dropdown">
@@ -20,20 +21,20 @@ function Navbar() {
               Hostel
             </Link>
             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-              <Link className="dropdown-item" to="/hostel/aravali">Aravali Hostel</Link>
-              <Link className="dropdown-item" to="/hostel/girnar">Girnar Hostel</Link>
-              <Link className="dropdown-item" to="/hostel/jwalamukhi">Jwalamukhi Hostel</Link>
-              <Link className="dropdown-item" to="/hostel/karakoram">Karakoram Hostel</Link>
-              <Link className="dropdown-item" to="/hostel/nilgiri">Nilgiri Hostel</Link>
-              <Link className="dropdown-item" to="/hostel/shivalik">Shivalik Hostel</Link>
-              <Link className="dropdown-item" to="/hostel/satpura">Satpura Hostel</Link>
-              <Link className="dropdown-item" to="/hostel/udaigiri">Udaigiri Hostel</Link>
-              <Link className="dropdown-item" to="/hostel/vindhyachal">Vindhyachal Hostel</Link>
-              <Link className="dropdown-item" to="/hostel/zanskar">Zanskar Hostel</Link>
+              <Link className="dropdown-item" to="/hostel/aravali" onClick={()=>{window.scrollTo(0,0)}}>Aravali </Link>
+              <Link className="dropdown-item" to="/hostel/girnar" onClick={()=>{window.scrollTo(0,0)}}>Girnar </Link>
+              <Link className="dropdown-item" to="/hostel/jwalamukhi" onClick={()=>{window.scrollTo(0,0)}}>Jwalamukhi </Link>
+              <Link className="dropdown-item" to="/hostel/karakoram" onClick={()=>{window.scrollTo(0,0)}}>Karakoram </Link>
+              <Link className="dropdown-item" to="/hostel/nilgiri" onClick={()=>{window.scrollTo(0,0)}}>Nilgiri </Link>
+              <Link className="dropdown-item" to="/hostel/shivalik" onClick={()=>{window.scrollTo(0,0)}}>Shivalik </Link>
+              <Link className="dropdown-item" to="/hostel/satpura" onClick={()=>{window.scrollTo(0,0)}}>Satpura </Link>
+              <Link className="dropdown-item" to="/hostel/udaigiri" onClick={()=>{window.scrollTo(0,0)}}>Udaigiri </Link>
+              <Link className="dropdown-item" to="/hostel/vindhyachal" onClick={()=>{window.scrollTo(0,0)}}>Vindhyachal </Link>
+              <Link className="dropdown-item" to="/hostel/zanskar" onClick={()=>{window.scrollTo(0,0)}}>Zanskar </Link>
               <div className="dropdown-divider"></div>
-              <Link className="dropdown-item" to="/hostel/kailash">Kailash Hostel</Link>
-              <Link className="dropdown-item" to="/hostel/himadri">Himadri Hostel</Link>
-              <Link className="dropdown-item" to="/hostel/newkailash">New Kailash Hostel</Link>
+              <Link className="dropdown-item" to="/hostel/kailash" onClick={()=>{window.scrollTo(0,0)}}>Kailash </Link>
+              <Link className="dropdown-item" to="/hostel/himadri" onClick={()=>{window.scrollTo(0,0)}}>Himadri </Link>
+              <Link className="dropdown-item" to="/hostel/newkailash" onClick={()=>{window.scrollTo(0,0)}}>New Kailash </Link>
             </div>
           </li>
 
@@ -72,8 +73,11 @@ function Navbar() {
             </div>
           </li>
 
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <Link className="nav-link" to="/initiatives">Initiatives</Link>
+          </li> */}
+          <li className="nav-item">
+            <a className="nav-link" target="_blank" href={constitution}>Constitution</a>
           </li>
         </ul>
         <form className="d-inline-flex search-bar">
