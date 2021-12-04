@@ -20,7 +20,7 @@ const notices = [
     {
         date: new Date(),
         heading: "Masala Mix",
-        notice: "Masala Mix is reopened to serve you all with their kulti cuisine from 12 in the afternoon till 11PM.  Visit it at its old location near Chaayos and bring back the sense of nostalgia with its delicious plethora of food.",
+        notice: "Masala Mix is reopened to serve you all with their multi cuisine from 12 in the afternoon till 11PM.  Visit it at its old location near Chaayos and bring back the sense of nostalgia with its delicious plethora of food.",
         show: true
     },
     {

@@ -10,7 +10,7 @@ import vindhyachal from './vindhyachal/data';
 import zanskar from './zanskar/data';
 import kailash from './kailash/data';
 import himadri from './himadri/data';
-import new_kailash from './new_kailash/data';
+// import new_kailash from './new_kailash/data';
 import kumaon from './kumaon/data';
 
 
@@ -27,7 +27,7 @@ import vindhyachal_logo from './vindhyachal/logo.jpg';
 import zanskar_logo from './zanskar/logo.jpg';
 import kailash_logo from './kailash/logo.jpg';
 import himadri_logo from './himadri/logo.jpg';
-import new_kailash_logo from './new_kailash/logo.jpg';
+// import new_kailash_logo from './new_kailash/logo.jpg';
 import kumaon_logo from './kumaon/logo.jpg';
 
 
@@ -57,12 +57,12 @@ data['kailash'] = kailash;
 data['kailash']["logo"] = kailash_logo
 data['himadri'] = himadri;
 data['himadri']["logo"] = himadri_logo
-data['new_kailash'] = new_kailash;
-data['new_kailash']["logo"] = new_kailash_logo
+// data['new_kailash'] = new_kailash;
+// data['new_kailash']["logo"] = new_kailash_logo
 data['kumaon'] = kumaon;
 data['kumaon']["logo"] = kumaon_logo
 
-var hostel_list = ['aravali', 'girnar', 'jwalamukhi', 'karakoram', 'nilgiri', 'shivalik', 'satpura', 'udaigiri', 'vindhyachal', 'zanskar', 'kailash', 'himadri', 'new_kailash', 'kumaon'];
+var hostel_list = ['aravali', 'girnar', 'jwalamukhi', 'karakoram', 'nilgiri', 'shivalik', 'satpura', 'udaigiri', 'vindhyachal', 'zanskar', 'kailash', 'himadri', /*'new_kailash',*/ 'kumaon'];
 var hostels = {};
 
 hostel_list.forEach(hostel => {

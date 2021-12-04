@@ -1,6 +1,6 @@
 import './component.css'
-import hero from './hero_original.jpg';
-import hostel_logo from '../../../data/hostel/aravali/logo.jpg';
+// import hero from './hero_original.jpg';
+// import hostel_logo from '../../../data/hostel/aravali/logo.jpg';
 import React, { useEffect } from 'react';
 
 function Hero(props) {

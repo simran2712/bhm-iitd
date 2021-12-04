@@ -7,57 +7,57 @@ import sac from './sac.jpg';
 import sports from './sports.jpg';
 var data = {
     hero: hero,
-    introduction: `Aravali is one of the oldest and most prestigious hostels of IIT Delhi which has served as the home away from home for thousands of the country's brightest minds over the years. Aravali prides itself of a rich academic culture having its students bag the President's gold medal given for academic excellence for the past 2 years. It also boasts of a rich cultural history with multiple laurels achieved in clubs like PFC (Photography and Films Club), Debating Club etc and also perform exceptionally in various sports events as well. All of this is accomplished through a highly interactive network of seniors and freshers which grooms them to become accomplished individuals who excel both academically and in extra-curriculars. Aravali also has a premiere alumni network with its previous students having been placed in some of the most prestigious firms all over the world. Staying at Aravali is a privilege to all its numerous residents and provides them with some of the most precious and unforgettable years of their lives. `,
-    vision: `To provide best facilities for a safe and comfortable stay and to maintain a conducive environment for the students, where knowledge is shared, creativity is developed and fraternity exist in a cross cultural background, which in turn will help the students to excel in academics and management skills.    `,
+    introduction: `Established in 1965, Jwalamukhi hostel has been a Sports Powerhouse of the Institute for the longest. It has produced brilliant sportspersons who have shown their mettle in various high-stakes tournaments in and out of the institute. The hostel recently came off its four-year Sports General Championship winning streak. Apart from sports, Jwalamukhi hostel has also been one of the best hostels in terms of Cultural activities and has produced great talent in various areas like Drama, Performing Arts, Design, Dance, etc. This hostel also brags alumni in the ranks of billionaires and top-ranking officers of the country. All of this has been sustained by a supportive culture of mentorship that carefully cultivates the freshmen every year and introduces them to various aspects of college life. These bonds formed with seniors in freshmen years often last for a lifetime. All the residents of the Jwalamukhi hostel live together as a big community that works with the motto of- Fire and Victory.`,
+    vision: `To create a great hostel experience that Students enjoy and find truly memorable.  This demands that we place Students’ satisfaction and safety at the heart of everything we do.`,
     contact: [
         {
             designation: 'Caretaker',
-            name: 'SCL sharma',
-            phone: '+91 11 2659 6990',
-            email: 'aravalihostel2510@gmail.com'
+            name: '',
+            phone: '99588 20949',
+            email: 'caretakerjwalamukhi@admin.iitd.ac.in'
         },
         {
             designation: 'Warden',
-            name: 'Seshan Srirangarajan',
-            phone: '⠀',
-            email: 'seshan@ee.iitd.ac.in'
+            name: '',
+            phone: '',
+            email: 'wdnmjwa@admin.iitd.ac.in'
         },
         {
-            designation: 'Security Desk Guard',
+            designation: 'Reception',
             name: '⠀',
-            phone: '+91 11 2659 6911',
+            phone: '1126596913',
             email: '⠀'
         }
     ],
     secys: [
         {
             designation: 'House Secretary',
-            name: 'Abhiroop Agarwal',
+            name: 'Darpan Kumar Yadav',
             image: house
         },
         {
             designation: 'Maintenance Secretary',
-            name: 'Jay Moghariya',
+            name: 'Gopal Sharma',
             image: maint
         },
         {
             designation: 'Cultural Seceratary',
-            name: 'Rishi Shah',
+            name: 'Nishant Bansal',
             image: cult
         },
         {
             designation: 'Mess Secretary',
-            name: 'Devansh',
+            name: 'Md Intaf Alam',
             image: mess
         },
         {
             designation: 'Secretary to SAC',
-            name: 'Avyansh Katiyar',
+            name: '',
             image: sac
         },
         {
             designation: 'Sports Secretary',
-            name: 'Sarang Dev',
+            name: 'Pritikey Maurya',
             image: sports
         },
     ]

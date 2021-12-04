@@ -7,57 +7,61 @@ import sac from './sac.jpg';
 import sports from './sports.jpg';
 var data = {
     hero: hero,
-    introduction: `Aravali is one of the oldest and most prestigious hostels of IIT Delhi which has served as the home away from home for thousands of the country's brightest minds over the years. Aravali prides itself of a rich academic culture having its students bag the President's gold medal given for academic excellence for the past 2 years. It also boasts of a rich cultural history with multiple laurels achieved in clubs like PFC (Photography and Films Club), Debating Club etc and also perform exceptionally in various sports events as well. All of this is accomplished through a highly interactive network of seniors and freshers which grooms them to become accomplished individuals who excel both academically and in extra-curriculars. Aravali also has a premiere alumni network with its previous students having been placed in some of the most prestigious firms all over the world. Staying at Aravali is a privilege to all its numerous residents and provides them with some of the most precious and unforgettable years of their lives. `,
-    vision: `To provide best facilities for a safe and comfortable stay and to maintain a conducive environment for the students, where knowledge is shared, creativity is developed and fraternity exist in a cross cultural background, which in turn will help the students to excel in academics and management skills.    `,
+    introduction: `Since 2005, Satpura has been a powerhouse in Dance and Dramatics, producing some of the finest dancers and institute-level dramatists. Lately, there has also been a steep rise in Debating and PFC culture. It has also produced some of the best Institute level swimmers who represent IIT in various Inter-college competitions. Satpura is also famous for producing some of the best coders and developers in recent times, many of them reaching the finals of the best coding competitions. The hostel also boasts a large number of high CGPA students, Department Toppers, and Department changes.
+
+    Satpura is known for one of the best Wall paintings among all Hostels. It also owns one of the finest gardens on Campus. Lush green and very well maintained, we were the second runners-up in Garden Trophy 2019. We also have one of the best messes on Campus, both in terms of food quality and cleanliness. Satpura night mess need no introduction, as one of the finest night mess campus have. Lately, in 2019-20, a new gym was built, and several new machines were bought. The volleyball court was also renovated with a new net where our players practiced a lot for the inter hostel tournament, ultimately resulting in a better position than last year.
+    `,
+    vision: `To be a center of excellence in provision of student accommodation services and best quality mess facilities. To create a memorable and joyful experience of their stay.
+    `,
     contact: [
         {
             designation: 'Caretaker',
-            name: 'SCL sharma',
-            phone: '+91 11 2659 6990',
-            email: 'aravalihostel2510@gmail.com'
+            name: 'Lokesh',
+            phone: '',
+            email: 'caretakersatpura@admin.iitd.ac.in'
         },
         {
             designation: 'Warden',
-            name: 'Seshan Srirangarajan',
-            phone: '⠀',
-            email: 'seshan@ee.iitd.ac.in'
+            name: 'Prof. Hariprasad Kodamana',
+            phone: '',
+            email: 'wdnmsat@admin.iitd.ac.in'
         },
         {
-            designation: 'Security Desk Guard',
+            designation: 'Guard',
             name: '⠀',
-            phone: '+91 11 2659 6911',
+            phone: '011 2659 7066',
             email: '⠀'
         }
     ],
     secys: [
         {
             designation: 'House Secretary',
-            name: 'Abhiroop Agarwal',
+            name: 'Arvin Goyal',
             image: house
         },
         {
             designation: 'Maintenance Secretary',
-            name: 'Jay Moghariya',
+            name: 'Aniket Vitthal',
             image: maint
         },
         {
             designation: 'Cultural Seceratary',
-            name: 'Rishi Shah',
+            name: 'Ritik Yadav',
             image: cult
         },
         {
             designation: 'Mess Secretary',
-            name: 'Devansh',
+            name: 'Rahul Narayan',
             image: mess
         },
         {
             designation: 'Secretary to SAC',
-            name: 'Avyansh Katiyar',
+            name: 'Jasmeet Singh',
             image: sac
         },
         {
             designation: 'Sports Secretary',
-            name: 'Sarang Dev',
+            name: 'Aryan Dixit',
             image: sports
         },
     ]

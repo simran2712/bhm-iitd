@@ -7,57 +7,61 @@ import sac from './sac.jpg';
 import sports from './sports.jpg';
 var data = {
     hero: hero,
-    introduction: `Aravali is one of the oldest and most prestigious hostels of IIT Delhi which has served as the home away from home for thousands of the country's brightest minds over the years. Aravali prides itself of a rich academic culture having its students bag the President's gold medal given for academic excellence for the past 2 years. It also boasts of a rich cultural history with multiple laurels achieved in clubs like PFC (Photography and Films Club), Debating Club etc and also perform exceptionally in various sports events as well. All of this is accomplished through a highly interactive network of seniors and freshers which grooms them to become accomplished individuals who excel both academically and in extra-curriculars. Aravali also has a premiere alumni network with its previous students having been placed in some of the most prestigious firms all over the world. Staying at Aravali is a privilege to all its numerous residents and provides them with some of the most precious and unforgettable years of their lives. `,
-    vision: `To provide best facilities for a safe and comfortable stay and to maintain a conducive environment for the students, where knowledge is shared, creativity is developed and fraternity exist in a cross cultural background, which in turn will help the students to excel in academics and management skills.    `,
+    introduction: `Nilgiri is part of our identity. We Nilbulls are one of the oldest hostels in IIT Delhi, with a rich and storied(probably the best) alumni history. Nilgiri has a legacy of academic, cultural and sporting excellence. It is the place where great minds are moulded, and champions are made.
+    We Nil bois give our best in everything, and this has led to many intense rivalries, combined with the fact that the BRCA, BSW and BHM trophies are hotly contested.
+     Despite being one of the oldest, Nilgiri is the newly renovated and one of the most well-maintained hostels on the campus. 
+    The Young Bulls are forever participating in everything and earning laurels for Nilgiri while at the same time gaining respect and endearment from the seniors who help us with anything we want.
+    `,
+    vision: `We NilBulls focuses on providing best and memorable experience to all the students, while sharing knowledge, experiences and skills, making life lasting bonds and living the life to the fullest.`,
     contact: [
         {
             designation: 'Caretaker',
-            name: 'SCL sharma',
-            phone: '+91 11 2659 6990',
-            email: 'aravalihostel2510@gmail.com'
+            name: '',
+            phone: '01126596991',
+            email: 'caretakernilgiri@admin.iitd.ac.in'
         },
         {
             designation: 'Warden',
-            name: 'Seshan Srirangarajan',
-            phone: '⠀',
-            email: 'seshan@ee.iitd.ac.in'
+            name: '',
+            phone: '',
+            email: 'wdnmnil@admin.iitd.ac.in'
         },
         {
-            designation: 'Security Desk Guard',
+            designation: 'Guard',
             name: '⠀',
-            phone: '+91 11 2659 6911',
+            phone: '01126596919',
             email: '⠀'
         }
     ],
     secys: [
         {
             designation: 'House Secretary',
-            name: 'Abhiroop Agarwal',
+            name: 'Asim Rajvanshi',
             image: house
         },
         {
             designation: 'Maintenance Secretary',
-            name: 'Jay Moghariya',
+            name: 'Divyanshu Bujethia',
             image: maint
         },
         {
             designation: 'Cultural Seceratary',
-            name: 'Rishi Shah',
+            name: 'Aditya Vishal',
             image: cult
         },
         {
             designation: 'Mess Secretary',
-            name: 'Devansh',
+            name: 'Arunesh Singh',
             image: mess
         },
         {
             designation: 'Secretary to SAC',
-            name: 'Avyansh Katiyar',
+            name: 'Hriday Gupta',
             image: sac
         },
         {
             designation: 'Sports Secretary',
-            name: 'Sarang Dev',
+            name: 'Shantanu Meena',
             image: sports
         },
     ]

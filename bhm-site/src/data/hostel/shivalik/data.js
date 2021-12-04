@@ -7,57 +7,62 @@ import sac from './sac.jpg';
 import sports from './sports.jpg';
 var data = {
     hero: hero,
-    introduction: `Aravali is one of the oldest and most prestigious hostels of IIT Delhi which has served as the home away from home for thousands of the country's brightest minds over the years. Aravali prides itself of a rich academic culture having its students bag the President's gold medal given for academic excellence for the past 2 years. It also boasts of a rich cultural history with multiple laurels achieved in clubs like PFC (Photography and Films Club), Debating Club etc and also perform exceptionally in various sports events as well. All of this is accomplished through a highly interactive network of seniors and freshers which grooms them to become accomplished individuals who excel both academically and in extra-curriculars. Aravali also has a premiere alumni network with its previous students having been placed in some of the most prestigious firms all over the world. Staying at Aravali is a privilege to all its numerous residents and provides them with some of the most precious and unforgettable years of their lives. `,
-    vision: `To provide best facilities for a safe and comfortable stay and to maintain a conducive environment for the students, where knowledge is shared, creativity is developed and fraternity exist in a cross cultural background, which in turn will help the students to excel in academics and management skills.    `,
+    introduction: `Shivalik is one of the oldest and culturally rich hostels at IIT Delhi, famous for its immense culture, participation, and alumni. Unlike other hostels, the unity among the residents is never lasting here.
+ 
+    People enjoy being a part of the hostel and the senior’s encouragement fills up the enthusiasm in the fresher to participate in all the activities with the great spark to secure top positions for the hostel’s pride. Inter hostel fresher’s general championship was first introduced  in 2019, and Shivalik secured the top place because of the excellent coordination and enthusiasm among the residents. The inter hostel street play and group dance are few events that make people rejoice in the essence of culture, and that’s what made the aura immensely magnificent.
+     
+    There have been many developments in the hostel in the past few years. The respect for the seniors is always there with increased love and mutual understanding, enhancing the fun, participation, and learning among the residents. The BSP Trophy also found its place at Shivalik this year. Discourse, Fresher’s APD, Art Workshops, Dance Workshops, and regular Quizzes on the Instagram page are also conducted successfully with significant participation. The quality participation is immense, and the step-wise achievements encourages the participants to give their best. These achievements come from the utmost guidance that juniors acquire from their seniors, which helps their overall development.
+    `,
+    vision: ``,
     contact: [
         {
             designation: 'Caretaker',
-            name: 'SCL sharma',
-            phone: '+91 11 2659 6990',
-            email: 'aravalihostel2510@gmail.com'
+            name: '',
+            phone: '9166047639',
+            email: 'Praveen.Kumar@admin.iitd.ac.in'
         },
         {
             designation: 'Warden',
-            name: 'Seshan Srirangarajan',
-            phone: '⠀',
-            email: 'seshan@ee.iitd.ac.in'
+            name: '',
+            phone: '',
+            email: 'wdnmshv@admin.iitd.ac.in'
         },
         {
-            designation: 'Security Desk Guard',
+            designation: 'Guard',
             name: '⠀',
-            phone: '+91 11 2659 6911',
+            phone: '01126596921',
             email: '⠀'
         }
     ],
     secys: [
         {
             designation: 'House Secretary',
-            name: 'Abhiroop Agarwal',
+            name: 'RITVIK AJARIA',
             image: house
         },
         {
             designation: 'Maintenance Secretary',
-            name: 'Jay Moghariya',
+            name: 'NISHCHAY SINGh',
             image: maint
         },
         {
             designation: 'Cultural Seceratary',
-            name: 'Rishi Shah',
+            name: 'KESHAV GUPTA	',
             image: cult
         },
         {
             designation: 'Mess Secretary',
-            name: 'Devansh',
+            name: 'R. HARI SHANKAR	',
             image: mess
         },
         {
             designation: 'Secretary to SAC',
-            name: 'Avyansh Katiyar',
+            name: 'KARTIK RAJ KHANDELWAL	',
             image: sac
         },
         {
             designation: 'Sports Secretary',
-            name: 'Sarang Dev',
+            name: 'NARENDRA KUMAR',
             image: sports
         },
     ]

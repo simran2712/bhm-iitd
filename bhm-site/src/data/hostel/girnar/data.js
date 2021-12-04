@@ -7,57 +7,57 @@ import sac from './sac.jpg';
 import sports from './sports.jpg';
 var data = {
     hero: hero,
-    introduction: `Aravali is one of the oldest and most prestigious hostels of IIT Delhi which has served as the home away from home for thousands of the country's brightest minds over the years. Aravali prides itself of a rich academic culture having its students bag the President's gold medal given for academic excellence for the past 2 years. It also boasts of a rich cultural history with multiple laurels achieved in clubs like PFC (Photography and Films Club), Debating Club etc and also perform exceptionally in various sports events as well. All of this is accomplished through a highly interactive network of seniors and freshers which grooms them to become accomplished individuals who excel both academically and in extra-curriculars. Aravali also has a premiere alumni network with its previous students having been placed in some of the most prestigious firms all over the world. Staying at Aravali is a privilege to all its numerous residents and provides them with some of the most precious and unforgettable years of their lives. `,
-    vision: `To provide best facilities for a safe and comfortable stay and to maintain a conducive environment for the students, where knowledge is shared, creativity is developed and fraternity exist in a cross cultural background, which in turn will help the students to excel in academics and management skills.    `,
+    introduction: `With your luggage on your shoulders, expectations in your mind, and dreams in your eyes, you enter this place called Girnar, which is one of the biggest hostels in IIT Delhi, with over 650 students and the newest hostel starting in 2010. Being a part of Girnar, you will find yourself in one of the most interactive places of IITD, whether it is the brotherhood with your wingmates or the seniors who are there to guide you every time. The night-outs together, inter wing culture, and the enthusiasm during the events has their own enigma. Even if it is the newest hostel, Girnar has established a remarkable legacy in recreational activities like debating, drama club, etc., and a great sports culture. Every pass-out takes with him the memories of this glory and heritage. Every fresher will feel the aura!`,
+    vision: `To be a center of excellence in the provision of student accommodation services. To keep a check on facilities that students require to take this excellent hostel culture to another level.`,
     contact: [
         {
             designation: 'Caretaker',
-            name: 'SCL sharma',
-            phone: '+91 11 2659 6990',
-            email: 'aravalihostel2510@gmail.com'
+            name: 'Deep Chandra',
+            phone: '99902 56137',
+            email: 'caretakergirnar@admin.iitd.ac.in'
         },
         {
             designation: 'Warden',
-            name: 'Seshan Srirangarajan',
-            phone: '⠀',
-            email: 'seshan@ee.iitd.ac.in'
+            name: 'N M Anoop Krishnan',
+            phone: '99451 91019',
+            email: 'wdnmgir@admin.iitd.ac.in'
         },
         {
-            designation: 'Security Desk Guard',
+            designation: '',
             name: '⠀',
-            phone: '+91 11 2659 6911',
+            phone: '',
             email: '⠀'
         }
     ],
     secys: [
         {
             designation: 'House Secretary',
-            name: 'Abhiroop Agarwal',
+            name: 'Shitij Malik',
             image: house
         },
         {
             designation: 'Maintenance Secretary',
-            name: 'Jay Moghariya',
+            name: 'Sayam Singla',
             image: maint
         },
         {
             designation: 'Cultural Seceratary',
-            name: 'Rishi Shah',
+            name: 'Priyanshu',
             image: cult
         },
         {
             designation: 'Mess Secretary',
-            name: 'Devansh',
+            name: 'Vikash Kulhari',
             image: mess
         },
         {
             designation: 'Secretary to SAC',
-            name: 'Avyansh Katiyar',
+            name: 'Vishantan Kumar',
             image: sac
         },
         {
             designation: 'Sports Secretary',
-            name: 'Sarang Dev',
+            name: 'Srijan Maurya',
             image: sports
         },
     ]

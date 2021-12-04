@@ -7,57 +7,57 @@ import sac from './sac.jpg';
 import sports from './sports.jpg';
 var data = {
     hero: hero,
-    introduction: `Aravali is one of the oldest and most prestigious hostels of IIT Delhi which has served as the home away from home for thousands of the country's brightest minds over the years. Aravali prides itself of a rich academic culture having its students bag the President's gold medal given for academic excellence for the past 2 years. It also boasts of a rich cultural history with multiple laurels achieved in clubs like PFC (Photography and Films Club), Debating Club etc and also perform exceptionally in various sports events as well. All of this is accomplished through a highly interactive network of seniors and freshers which grooms them to become accomplished individuals who excel both academically and in extra-curriculars. Aravali also has a premiere alumni network with its previous students having been placed in some of the most prestigious firms all over the world. Staying at Aravali is a privilege to all its numerous residents and provides them with some of the most precious and unforgettable years of their lives. `,
-    vision: `To provide best facilities for a safe and comfortable stay and to maintain a conducive environment for the students, where knowledge is shared, creativity is developed and fraternity exist in a cross cultural background, which in turn will help the students to excel in academics and management skills.    `,
+    introduction: `Himadri is one of the three girls hostel at IIT Delhi . It accommodates around 550 residents from various streams-Btech , Phd etc. The hostel has a fully functional mess, along with air-conditioned visitor’s room , reading room , music room , Gym , pool table , Dance area and other recreational facilities including a common room . There is even the facility of washing machines, badminton court,other sports equipments and balconies are present on each floor. Himadri has a legacy in BSP(Board for Student Publications) , producing the most journos and chief Eds consistently. Apart from this , various cultural events are organized annually for the residents- Karaoke night, movie nights etc. We also have a flourishing sports culture with people participating enthusiastically in various sport events across the year. The achievements of Himadri in sports range from spectacular victories in inter hostels to creating new records as well as winning the matches for their teams in inter IITs.`,
+    vision: `Infusing a collective identity in Himadri residents and ensuring that each individual is cared about and provided for.`,
     contact: [
         {
             designation: 'Caretaker',
-            name: 'SCL sharma',
-            phone: '+91 11 2659 6990',
-            email: 'aravalihostel2510@gmail.com'
+            name: 'Mr. Mohit',
+            phone: '01126596879',
+            email: 'Caretaker.of.Himadri@admin.iitd.ac.in'
         },
         {
             designation: 'Warden',
-            name: 'Seshan Srirangarajan',
+            name: 'Prof. Priyanka kaushal',
             phone: '⠀',
-            email: 'seshan@ee.iitd.ac.in'
+            email: 'wdnmhim@admin.iitd.ac.in'
         },
         {
-            designation: 'Security Desk Guard',
+            designation: '⠀',
             name: '⠀',
-            phone: '+91 11 2659 6911',
+            phone: '01126596825',
             email: '⠀'
         }
     ],
     secys: [
         {
             designation: 'House Secretary',
-            name: 'Abhiroop Agarwal',
+            name: 'Ishika Verma',
             image: house
         },
         {
             designation: 'Maintenance Secretary',
-            name: 'Jay Moghariya',
+            name: 'Ritika Dubey',
             image: maint
         },
         {
             designation: 'Cultural Seceratary',
-            name: 'Rishi Shah',
+            name: 'Aashita Gupta',
             image: cult
         },
         {
             designation: 'Mess Secretary',
-            name: 'Devansh',
+            name: 'Ishika Yadav',
             image: mess
         },
         {
             designation: 'Secretary to SAC',
-            name: 'Avyansh Katiyar',
+            name: 'Ashi Chakresh Jain',
             image: sac
         },
         {
             designation: 'Sports Secretary',
-            name: 'Sarang Dev',
+            name: 'Ananya Choudhary',
             image: sports
         },
     ]

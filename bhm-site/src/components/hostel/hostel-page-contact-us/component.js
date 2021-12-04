@@ -27,7 +27,7 @@ function ContactUs(props) {
                         <div className="h6" style={{ paddingTop: "0px", marginTop: "0px" }}>caretaker@iitd.ac.in</div>
                     </div> */}
                     {props.contact.map(contact=>{
-                        return <div className="col-12 col-md-4 text-left" style={{ paddingBottom: "0px" }}>
+                        return <div className="col-12 col-md-4 text-left my-4" style={{ paddingBottom: "0px" }}>
                         <div className="h4" style={{ fontWeight: "bold" }}>{contact.designation}</div>
                         <div className="h5" style={{ fontWeight: "bold" }}>{contact.name}</div>
                         <div className="h6" style={{ paddingBottom: "0px", marginBottom: "0px" }}>{contact.phone}</div>

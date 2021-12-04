@@ -1,63 +1,65 @@
-import hero from './hero.jpg';
+import hero from './hero.jpeg';
 import house from './house.jpg';
 import maint from './maint.jpg';
 import cult from './cult.jpg';
-import mess from './mess.jpg';
+import mess from './mess.jpeg';
 import sac from './sac.jpg';
 import sports from './sports.jpg';
 var data = {
     hero: hero,
-    introduction: `Aravali is one of the oldest and most prestigious hostels of IIT Delhi which has served as the home away from home for thousands of the country's brightest minds over the years. Aravali prides itself of a rich academic culture having its students bag the President's gold medal given for academic excellence for the past 2 years. It also boasts of a rich cultural history with multiple laurels achieved in clubs like PFC (Photography and Films Club), Debating Club etc and also perform exceptionally in various sports events as well. All of this is accomplished through a highly interactive network of seniors and freshers which grooms them to become accomplished individuals who excel both academically and in extra-curriculars. Aravali also has a premiere alumni network with its previous students having been placed in some of the most prestigious firms all over the world. Staying at Aravali is a privilege to all its numerous residents and provides them with some of the most precious and unforgettable years of their lives. `,
-    vision: `To provide best facilities for a safe and comfortable stay and to maintain a conducive environment for the students, where knowledge is shared, creativity is developed and fraternity exist in a cross cultural background, which in turn will help the students to excel in academics and management skills.    `,
+    introduction: `Zanskar is one of IIT Delhi's 13 boys hostels named after the Zanskar region near Himalaya range. It houses approximately 450 residents from diverse fields such as B.Tech, M.Tech, M.Des, PhD, and MBA. In 2020, it has received 141 new entries in just B.Tech! Zanskar is the only boys hostel that boasts an Open Air Theatre.
+    The hostel with the famous “The Marvel Wall”, Zanskar is a hostel with an exciting culture. Athletics is a place where you wouldn’t want to challenge them. They are known for their Wolfish stance.
+     `,
+    vision: `To raise wolves, accomplished to lead the pack!`,
     contact: [
         {
             designation: 'Caretaker',
-            name: 'SCL sharma',
-            phone: '+91 11 2659 6990',
-            email: 'aravalihostel2510@gmail.com'
+            name: 'Ashish Chahar ',
+            phone: '+91 98715 76199',
+            email: 'caretakerzanskar@iitd.ac.in'
         },
         {
             designation: 'Warden',
-            name: 'Seshan Srirangarajan',
-            phone: '⠀',
-            email: 'seshan@ee.iitd.ac.in'
+            name: 'Sumedha Chakma',
+            phone: '+91 85880 88842',
+            email: 'sumedha.chakma@civil.iitd.ac.in'
         },
         {
             designation: 'Security Desk Guard',
             name: '⠀',
-            phone: '+91 11 2659 6911',
+            phone: '01126597068',
             email: '⠀'
         }
     ],
     secys: [
         {
             designation: 'House Secretary',
-            name: 'Abhiroop Agarwal',
+            name: 'Bhupender Dhaka',
             image: house
         },
         {
             designation: 'Maintenance Secretary',
-            name: 'Jay Moghariya',
+            name: 'Himanshu Aggarwal',
             image: maint
         },
         {
             designation: 'Cultural Seceratary',
-            name: 'Rishi Shah',
+            name: 'Tarun Gaur',
             image: cult
         },
         {
             designation: 'Mess Secretary',
-            name: 'Devansh',
+            name: 'Narendra kumar',
             image: mess
         },
         {
             designation: 'Secretary to SAC',
-            name: 'Avyansh Katiyar',
+            name: 'Bhavuk Bhandula',
             image: sac
         },
         {
             designation: 'Sports Secretary',
-            name: 'Sarang Dev',
+            name: 'Dev Karan Singh',
             image: sports
         },
     ]
