@@ -7,6 +7,8 @@ import Hostel from './components/hostel/component';
 import Homepage from './pages/homepage';
 import FAQs from './pages/faqs/component';
 
+import Messmenu from './components/mess menu/component';
+
 function App() {
   return (
     <div className="App" id="container">
@@ -17,6 +19,7 @@ function App() {
           <Route exact path='/' element={<Homepage/>} />
           <Route path="/faqs" element = {<FAQs/>}/>
         </Routes>
+        <Messmenu/>
         <Footer />
       </Router>
     </div>
